@@ -1,0 +1,7 @@
+#logo {
+	margin: 0 auto 0 auto;
+	background: url(../images/logo320.png) no-repeat top center;
+	min-width: 320px;
+	min-height: 149 px;
+	padding-bottom: 200px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+	<title>ShotsCity</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="styles/styles.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head> 
+<body> 
+
+<div style= "background: black;" data-role="page" id="mainmenu">
+
+    <div id="logo">
+        
+    </div>
+
+	<div data-role="content">	
+	<div data-role="popup" id="popupBasic">
+	<p>Elements on the bartenders section are all messed up so I've just began to start over on those.<p>
+</div>
+		<div class="ui-grid-b">
+            <div class="ui-block-a">
+                <div class="menuIcon">
+                    <a href="views/featured/index.html" data-transition="pop"><img src="images/shots.png"></a>
+                </div>	
+            </div>
+
+            <div class="ui-block-b">
+                <div class="menuIcon">
+                    <a href="views/scene/index.html" data-transition="flip"><img src="images/article.png"/></a>
+                </div>
+
+            </div>
+            <div class="ui-block-c">
+                <div class="menuIcon">
+                    <a href="views/partypix/index.html" data-transition="pop"><img src="images/partypix.png"></a>
+                </div>	
+            </div>
+            <div class="ui-block-a">
+                <div class="menuIcon">
+                    <a href="views/bars/index.html" data-transition="pop"><img src="images/bars.png" /></a>
+                </div>	
+            </div>
+            
+            <div class="ui-block-b">
+                <div class="menuIcon">
+                	<a href="#popupBasic" data-rel="popup"><img src="images/bartender.png"></a>
+                </div>	
+            </div>
+            
+            <div class="ui-block-c">
+                <div class="menuIcon">
+                	<a href="views/events/index.html" data-transition="pop"><img src="images/events.png" /></a>
+                </div>	
+            </div>            
+        </div>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+    <div data-role="navbar">
+	<ul>
+            <li><a href="/views/messages.html" class="ui-btn-active ui-state-persist">Messages</a></li>
+			<li><a href="/views/notification.html">Notifications</a></li>
+            <li><a href="#">Logout</a></li>
+	</ul>
+    </div>    
+</div>
+</div><!-- /page -->
+
+</body>
+</html>
