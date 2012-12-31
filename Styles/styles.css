@@ -5,3 +5,11 @@
 	min-height: 149 px;
 	padding-bottom: 200px;
 }
+.barinfo {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.barinfo ul {
+	list-style-type: none;
+}
